@@ -1,0 +1,69 @@
+
+
+body{
+  background-image: url(../img/pexels-polina-zimmerman-3747519.jpg);
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+
+}
+
+p{
+  font-size: 30px;
+  color: #efe6e6;
+  background-color: #111;
+  border-radius: 10px;
+  
+}
+p:hover{
+  color: aqua;
+}
+button{
+  background-color: #6a0303;
+  font-size: 30px;
+  color: aliceblue;
+  cursor: pointer;
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  
+}
+button:hover{
+  background-color: aliceblue;
+  color: #1b0606;
+  box-shadow:0 0 0 10px #622020;
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+}
+
+.navbar {
+  background-color: #333;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #111;
+}
+
+.content {
+  text-align: center;
+  padding: 50px;
+}
+
+
